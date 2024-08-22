@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/vc/status-list/2021/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "https://ti-tecnologico-de-monterrey-oficial.github.io/myproject-status-list-DEVL/Y9YPKY0NJK",
+  "type": [
+    "VerifiableCredential",
+    "StatusList2021Credential"
+  ],
+  "credentialSubject": {
+    "id": "https://ti-tecnologico-de-monterrey-oficial.github.io/myproject-status-list-DEVL/Y9YPKY0NJK#list",
+    "type": "StatusList2021",
+    "encodedList": "H4sIAAAAAAAAA-3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAP4GcwM92tQwAAA",
+    "statusPurpose": "revocation"
+  },
+  "issuer": "did:key:z6MktdZHB8NkAnjeWy6jcFyvYvm4tPoJS1c6wu1CEMsq9HLY",
+  "issuanceDate": "2024-08-22T21:44:29.605Z",
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2024-08-22T21:44:29Z",
+    "verificationMethod": "did:key:z6MktdZHB8NkAnjeWy6jcFyvYvm4tPoJS1c6wu1CEMsq9HLY#z6MktdZHB8NkAnjeWy6jcFyvYvm4tPoJS1c6wu1CEMsq9HLY",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z5dPo4arfDifFuhzycB413kyguBMUEFeFcMJp3zsH7aRH2u9udCS6ZXfMbZ3Vd57LtqNjcdF2R2qirRL3ofbmkBnq"
+  }
+}
